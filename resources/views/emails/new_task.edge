@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .main {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14pt;  
+    }
+  </style>
+</head>
+<div class="main">
+  <strong>Fala {{username}}, beleza?</strong>
+
+  <p>Uma tarefa foi assinada a você com o título: {{title}}</p>
+
+  @if(hasAttachment)
+    <p>Em anexo você encontra detalhes da tarefa.</p>
+  @endif
+  <br>
+  <br>
+  <span>Equipe GoNode</span>  
+</div>
